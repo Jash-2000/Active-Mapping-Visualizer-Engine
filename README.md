@@ -59,7 +59,19 @@ I simulated the robot to run on the 'Hard.map' file as shown below, and gave it 
 <img src="https://github.com/Jash-2000/Active-Mapping-Visualizer-Python/blob/main/Maps/hard.png" alt="Hard Map" width="200"/>
 
 
-The series of images below will show the sensor outputs
+The series of images below will show the sensor outputs, where black colour represents the occupancy grid, red pixels represents the path it has covered and blue and green pixels represents the current position of the bot and the final goal point, respectively.
+
+| Phase Number | Image	|
+|--------------|--------|
+|	1      | <img src="https://github.com/Jash-2000/Active-Mapping-Visualizer-Engine/blob/main/Phase_Output/Phase_1.png" alt="Hard Map" width="400"/> |
+|	9      | <img src="https://github.com/Jash-2000/Active-Mapping-Visualizer-Engine/blob/main/Phase_Output/Phase_9.png" alt="Hard Map" width="400"/> |
+|	17      | <img src="https://github.com/Jash-2000/Active-Mapping-Visualizer-Engine/blob/main/Phase_Output/Phase_17.png" alt="Hard Map" width="400"/> |
+|	25      | <img src="https://github.com/Jash-2000/Active-Mapping-Visualizer-Engine/blob/main/Phase_Output/Phase_25.png" alt="Hard Map" width="400"/> |
+|	33      | <img src="https://github.com/Jash-2000/Active-Mapping-Visualizer-Engine/blob/main/Phase_Output/Phase_33.png" alt="Hard Map" width="400"/> |
+|	41      | <img src="https://github.com/Jash-2000/Active-Mapping-Visualizer-Engine/blob/main/Phase_Output/Phase_41.png" alt="Hard Map" width="400"/> |
+|	45      | <img src="https://github.com/Jash-2000/Active-Mapping-Visualizer-Engine/blob/main/Phase_Output/Phase_1.png" alt="Hard Map" width="400"/> |
 
 
 The GIF below will show how the bot incrementally maps the environment while planning its path and accordingly makes the descisions dynamically.
+
+![Working_GIF](https://github.com/Jash-2000/Active-Mapping-Visualizer-Engine/blob/main/Active_Mapping.mov) [Link](https://github.com/Jash-2000/Active-Mapping-Visualizer-Engine/blob/main/Active_Mapping.mov)
